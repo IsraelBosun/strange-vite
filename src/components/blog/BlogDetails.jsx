@@ -64,9 +64,10 @@ const BlogDetails = ({blogs}) => {
             </div>
           </section>
         </article>
-      <div className=''>
+      <ReactMarkdown className=''>
         {blokes.attributes.body}
-      </div>
+      </ReactMarkdown>
+      <ReactMarkdown>{blokes.attributes.testing}</ReactMarkdown>
     </div>
   )
 }

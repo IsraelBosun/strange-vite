@@ -1,7 +1,11 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
+import React from 'react';
 import { jsx, Box, Container, Image } from 'theme-ui';
 import Accordion from "../container/Accordion"
+import { motion } from 'framer-motion'
+import { TypingText } from '../container/TypingTexts';
+import { fadeIn, staggerContainer } from '../container/Data'
 
 
 
@@ -56,15 +60,22 @@ const data = [
 
 const Specialty = () => {
   return (
-    <section className='section flex flex-col items-center justify-center'>
-          <div className = "text-xl font-bold mb-4 text-center">Top <span className='text-blue-600'>5 questions </span>  that brings people to  my website</div>
+    <motion.section
+    variants={staggerContainer}
+    initial = "hidden"
+    whileInView= "show"
+    viewport={{once: false, amount: 0.25}}
+    className='section flex flex-col items-center justify-center'>
+          {/* <div className = "text-xl font-bold mb-4 text-center">Top <span className='text-blue-600'>5 questions </span>  that brings people to  my website</div> */}
+          <TypingText title = "| Top 5 questions that brings people to my website" textStyles = "text-center text-xl font-bold mb-4" subtitle="Hello" />
+          
           <Box sx={styles.accordionGroup} >
             <Accordion items={data} />
           </Box>
-  </section>
+  </motion.section>
   )
 }
-
+{<>Top <span className='text-blue-600'>5 questions that brings people to my website</span></>}
 export default Specialty
 
 const styles = {

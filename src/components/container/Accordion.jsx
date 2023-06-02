@@ -4,6 +4,7 @@ import { Fragment } from 'react';
 import { jsx, Heading } from 'theme-ui';
 import { BsArrowRight } from 'react-icons/bs';
 import { BaseAccordion } from './BaseAccordion';
+import { motion } from 'framer-motion';
 import {
   AccordionButton,
   AccordionItem,
@@ -16,6 +17,11 @@ import { rgba } from 'polished';
 
 export default function Accordion({ items, ...props }) {
   return (
+    <motion.article
+    // initial={{ y: 100 }}
+    // animate={{ y: 0 }}
+    // transition={{ duration: 0.5 }}
+    >
     <BaseAccordion
       stateReducer={combineReducers(single, preventClose)}
       {...props} className = "shadow-xl"
@@ -42,5 +48,6 @@ export default function Accordion({ items, ...props }) {
         </Fragment>
       )}
     </BaseAccordion>
+    </motion.article>
   );
 }

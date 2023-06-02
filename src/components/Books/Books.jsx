@@ -3,12 +3,14 @@ import { Tab } from '@headlessui/react'
 import {Link} from "react-router-dom";
 import book from "../../assets/About.jpeg"
 import Header from "../container/Header"
+import { motion } from "framer-motion"
+import { fadeIn, staggerContainer } from "../container/Data"
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Books() {
+export default function Books({index}) {
   let [categories] = useState({
     Health: [
       {
@@ -91,7 +93,7 @@ export default function Books() {
         <Header title ="Books Section" image ={book}>
             This is a repository of my books, you can get them here, some are for free
         </Header>
-        <div className = "w-full  section max-w-md px-2 py-7 sm:px-0">
+        <div className = "  section  px-2 py-7 sm:px-0">
       <Tab.Group >
         <Tab.List className="flex shadow-lg gap-2 space-x-1 rounded-xl bg-blue-900/20 p-1">
           {Object.keys(categories).map((category) => (
@@ -119,7 +121,10 @@ export default function Books() {
             >
               <ul className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
                 {posts.map((post) => (
-                  <li
+                  <motion.li
+                  initial={{ y: 100 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 0.5 }}
                     key={post.id}
                     className="rounded-xl mt-6 p-2 bg-gradient shadow-2xl bg-white rounded-md"
                   >
@@ -134,7 +139,7 @@ export default function Books() {
                         </div>
 
                    
-                  </li>
+                  </motion.li>
                 ))}
               </ul>
             </Tab.Panel>

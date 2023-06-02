@@ -61,14 +61,14 @@ const Contact = () => {
         <div className='mt-5 bg-white shadow-2xl text-blue-600 opacity- p-8 rounded-3xl' >
           <form className="max-w-md mx-auto">
             <label htmlFor="name" className="block mb-2 font-semibold">Name</label>
-            <input type="text" id="name" name="name" className="w-full px-4 py-2 mb-4 border rounded border-Teal outline-Teal" />
+            <input type="text" id="name" name="name" className="w-full px-4 py-2 mb-4 border rounded border-Teal outline-blue-600" />
             <label htmlFor="email" className="block mb-2 font-semibold">Email</label>
             <div className="relative flex">
-              <input type="email" id="email" name="email" className="w-full px-4 py-2 mb-4 border rounded border-Teal outline-Teal" />
+              <input type="email" id="email" name="email" className="w-full px-4 py-2 mb-4 border rounded border-Teal outline-blue-600" />
               {/* <AiOutlineMail className="absolute left-2  top-1 text-3xl  text-Teal" /> */}
             </div>
             <label htmlFor="message" className="block mb-2 font-semibold">Message</label>
-            <textarea id="message" name="message" rows="4" className="w-full px-4 py-2 mb-4 border rounded border-Teal outline-Teal" placeholder='Write to me' />
+            <textarea id="message" name="message" rows="4" className="w-full px-4 py-2 mb-4 border rounded border-Teal outline-blue-600" placeholder='Write to me' />
             <button onClick={""} type="submit" className=" bg-blue-600 text-white  px-4 py-2 rounded hover:bg-blue-700">Submit</button>
           </form>
 

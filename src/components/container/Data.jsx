@@ -33,6 +33,33 @@ export const navLinks = [
     },
   ];
 
+  export const exploreWorlds = [
+    {
+      id: 'world-1',
+      imgUrl: book,
+      title: 'How I handle Stress',
+    },
+    {
+      id: 'world-2',
+      imgUrl: book,
+      title: 'Your health and you',
+    },
+    {
+      id: 'world-3',
+      imgUrl: book,
+      title: 'Making Money is not hard',
+    },
+    {
+      id: 'world-4',
+      imgUrl: book,
+      title: 'How to love your family',
+    },
+    // {
+    //   id: 'world-5',
+    //   imgUrl: book,
+    //   title: 'Hawkins Labs',
+    // },
+  ];
 
 export const Xervices = [
   {
@@ -253,7 +280,7 @@ export const bloggers = [
     image: book,
     category: "Health",
     title:"Do this to prevent hypertension and sleep properly every day at night",
-    date: 'October 21, 2022',
+    // date: 'October 21, 2022',
     preview: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos!",
     details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos! Dolores vero vel, illum quibusdam voluptatem quidem esse optio ipsam reprehenderit quod odit cum voluptatibus deserunt ducimus magni voluptates. Fugit, quas sint distinctio rem culpa modi soluta repellendus nam ducimus et, ratione omnis eum! Odit consequatur at laudantium sapiente doloribus, rem iusto quas ad repellat quae nihil facilis voluptatem eos nobis voluptatibus minima fugiat, ratione eligendi, necessitatibus dolores? Quae dolor recusandae est! Aliquam eveniet dolorem quas unde eos itaque sint corporis, rem enim accusantium repudiandae dicta aspernatur possimus soluta dolorum tempora aut, modi eius harum! Sit nostrum dicta id mollitia nesciunt illum, minima laboriosam necessitatibus quam maxime autem quae quaerat ex dolores perferendis facilis quia tempore. Quam obcaecati quo, nulla excepturi vero dolor officia aut quidem incidunt eveniet voluptas dignissimos expedita. Omnis voluptas, ut laudantium architecto nostrum, quibusdam maxime eveniet voluptatem blanditiis at mollitia. Voluptatibus quam dolor est, repellat qui eaque fugit sequi enim minus deleniti libero nesciunt officia corporis explicabo nihil itaque expedita beatae porro deserunt debitis earum molestiae repudiandae eum voluptatem. Voluptatem, sed, vitae ab dolorum quibusdam quaerat maxime praesentium commodi tempora sequi consectetur.",
     date: "October 23, 2023"
@@ -263,7 +290,7 @@ export const bloggers = [
     image: book,
     category: "Entrepreneurship",
     title:"Do this to prevent hypertension and sleep properly every day at night",
-    date: 'October 21, 2022',
+    // date: 'October 21, 2022',
     preview: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos!",
     details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos! Dolores vero vel, illum quibusdam voluptatem quidem esse optio ipsam reprehenderit quod odit cum voluptatibus deserunt ducimus magni voluptates. Fugit, quas sint distinctio rem culpa modi soluta repellendus nam ducimus et, ratione omnis eum! Odit consequatur at laudantium sapiente doloribus, rem iusto quas ad repellat quae nihil facilis voluptatem eos nobis voluptatibus minima fugiat, ratione eligendi, necessitatibus dolores? Quae dolor recusandae est! Aliquam eveniet dolorem quas unde eos itaque sint corporis, rem enim accusantium repudiandae dicta aspernatur possimus soluta dolorum tempora aut, modi eius harum! Sit nostrum dicta id mollitia nesciunt illum, minima laboriosam necessitatibus quam maxime autem quae quaerat ex dolores perferendis facilis quia tempore. Quam obcaecati quo, nulla excepturi vero dolor officia aut quidem incidunt eveniet voluptas dignissimos expedita. Omnis voluptas, ut laudantium architecto nostrum, quibusdam maxime eveniet voluptatem blanditiis at mollitia. Voluptatibus quam dolor est, repellat qui eaque fugit sequi enim minus deleniti libero nesciunt officia corporis explicabo nihil itaque expedita beatae porro deserunt debitis earum molestiae repudiandae eum voluptatem. Voluptatem, sed, vitae ab dolorum quibusdam quaerat maxime praesentium commodi tempora sequi consectetur.",
     date: "October 23, 2023"
@@ -273,7 +300,7 @@ export const bloggers = [
     image: book,
     category: "Marriage",
     title:"Do this to prevent hypertension and sleep properly every day at night",
-    date: 'October 21, 2022',
+    // date: 'October 21, 2022',
     preview: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos!",
     details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos! Dolores vero vel, illum quibusdam voluptatem quidem esse optio ipsam reprehenderit quod odit cum voluptatibus deserunt ducimus magni voluptates. Fugit, quas sint distinctio rem culpa modi soluta repellendus nam ducimus et, ratione omnis eum! Odit consequatur at laudantium sapiente doloribus, rem iusto quas ad repellat quae nihil facilis voluptatem eos nobis voluptatibus minima fugiat, ratione eligendi, necessitatibus dolores? Quae dolor recusandae est! Aliquam eveniet dolorem quas unde eos itaque sint corporis, rem enim accusantium repudiandae dicta aspernatur possimus soluta dolorum tempora aut, modi eius harum! Sit nostrum dicta id mollitia nesciunt illum, minima laboriosam necessitatibus quam maxime autem quae quaerat ex dolores perferendis facilis quia tempore. Quam obcaecati quo, nulla excepturi vero dolor officia aut quidem incidunt eveniet voluptas dignissimos expedita. Omnis voluptas, ut laudantium architecto nostrum, quibusdam maxime eveniet voluptatem blanditiis at mollitia. Voluptatibus quam dolor est, repellat qui eaque fugit sequi enim minus deleniti libero nesciunt officia corporis explicabo nihil itaque expedita beatae porro deserunt debitis earum molestiae repudiandae eum voluptatem. Voluptatem, sed, vitae ab dolorum quibusdam quaerat maxime praesentium commodi tempora sequi consectetur.",
     date: "October 23, 2023"
@@ -283,7 +310,7 @@ export const bloggers = [
     image: book,
     category: "Health",
     title:"Do this to prevent hypertension and sleep properly every day at night",
-    date: 'October 21, 2022',
+    // date: 'October 21, 2022',
     preview: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos!",
     details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos! Dolores vero vel, illum quibusdam voluptatem quidem esse optio ipsam reprehenderit quod odit cum voluptatibus deserunt ducimus magni voluptates. Fugit, quas sint distinctio rem culpa modi soluta repellendus nam ducimus et, ratione omnis eum! Odit consequatur at laudantium sapiente doloribus, rem iusto quas ad repellat quae nihil facilis voluptatem eos nobis voluptatibus minima fugiat, ratione eligendi, necessitatibus dolores? Quae dolor recusandae est! Aliquam eveniet dolorem quas unde eos itaque sint corporis, rem enim accusantium repudiandae dicta aspernatur possimus soluta dolorum tempora aut, modi eius harum! Sit nostrum dicta id mollitia nesciunt illum, minima laboriosam necessitatibus quam maxime autem quae quaerat ex dolores perferendis facilis quia tempore. Quam obcaecati quo, nulla excepturi vero dolor officia aut quidem incidunt eveniet voluptas dignissimos expedita. Omnis voluptas, ut laudantium architecto nostrum, quibusdam maxime eveniet voluptatem blanditiis at mollitia. Voluptatibus quam dolor est, repellat qui eaque fugit sequi enim minus deleniti libero nesciunt officia corporis explicabo nihil itaque expedita beatae porro deserunt debitis earum molestiae repudiandae eum voluptatem. Voluptatem, sed, vitae ab dolorum quibusdam quaerat maxime praesentium commodi tempora sequi consectetur.",
     date: "October 23, 2023"
@@ -293,7 +320,7 @@ export const bloggers = [
     image: book,
     category: "Entrepreneurship",
     title:"Do this to prevent hypertension and sleep properly every day at night",
-    date: 'October 21, 2022',
+    // date: 'October 21, 2022',
     preview: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos!",
     details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos! Dolores vero vel, illum quibusdam voluptatem quidem esse optio ipsam reprehenderit quod odit cum voluptatibus deserunt ducimus magni voluptates. Fugit, quas sint distinctio rem culpa modi soluta repellendus nam ducimus et, ratione omnis eum! Odit consequatur at laudantium sapiente doloribus, rem iusto quas ad repellat quae nihil facilis voluptatem eos nobis voluptatibus minima fugiat, ratione eligendi, necessitatibus dolores? Quae dolor recusandae est! Aliquam eveniet dolorem quas unde eos itaque sint corporis, rem enim accusantium repudiandae dicta aspernatur possimus soluta dolorum tempora aut, modi eius harum! Sit nostrum dicta id mollitia nesciunt illum, minima laboriosam necessitatibus quam maxime autem quae quaerat ex dolores perferendis facilis quia tempore. Quam obcaecati quo, nulla excepturi vero dolor officia aut quidem incidunt eveniet voluptas dignissimos expedita. Omnis voluptas, ut laudantium architecto nostrum, quibusdam maxime eveniet voluptatem blanditiis at mollitia. Voluptatibus quam dolor est, repellat qui eaque fugit sequi enim minus deleniti libero nesciunt officia corporis explicabo nihil itaque expedita beatae porro deserunt debitis earum molestiae repudiandae eum voluptatem. Voluptatem, sed, vitae ab dolorum quibusdam quaerat maxime praesentium commodi tempora sequi consectetur.",
     date: "October 23, 2023"
@@ -308,5 +335,191 @@ export const bloggers = [
     details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos! Dolores vero vel, illum quibusdam voluptatem quidem esse optio ipsam reprehenderit quod odit cum voluptatibus deserunt ducimus magni voluptates. Fugit, quas sint distinctio rem culpa modi soluta repellendus nam ducimus et, ratione omnis eum! Odit consequatur at laudantium sapiente doloribus, rem iusto quas ad repellat quae nihil facilis voluptatem eos nobis voluptatibus minima fugiat, ratione eligendi, necessitatibus dolores? Quae dolor recusandae est! Aliquam eveniet dolorem quas unde eos itaque sint corporis, rem enim accusantium repudiandae dicta aspernatur possimus soluta dolorum tempora aut, modi eius harum! Sit nostrum dicta id mollitia nesciunt illum, minima laboriosam necessitatibus quam maxime autem quae quaerat ex dolores perferendis facilis quia tempore. Quam obcaecati quo, nulla excepturi vero dolor officia aut quidem incidunt eveniet voluptas dignissimos expedita. Omnis voluptas, ut laudantium architecto nostrum, quibusdam maxime eveniet voluptatem blanditiis at mollitia. Voluptatibus quam dolor est, repellat qui eaque fugit sequi enim minus deleniti libero nesciunt officia corporis explicabo nihil itaque expedita beatae porro deserunt debitis earum molestiae repudiandae eum voluptatem. Voluptatem, sed, vitae ab dolorum quibusdam quaerat maxime praesentium commodi tempora sequi consectetur.",
     date: "October 23, 2023"
   }
-]
+];
+
+export const navVariants = {
+  hidden: {
+    opacity: 0,
+    y: -50,
+    transition: {
+      type: 'spring',
+      stiffness: 300,
+      damping: 140,
+    },
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: 'spring',
+      stiffness: 80,
+      delay: 1,
+    },
+  },
+};
+
+export const slideIn = (direction, type, delay, duration) => ({
+  hidden: {
+    x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,
+    y: direction === 'up' ? '100%' : direction === 'down' ? '100%' : 0,
+  },
+  show: {
+    x: 0,
+    y: 0,
+    transition: {
+      type,
+      delay,
+      duration,
+      ease: 'easeOut',
+    },
+  },
+});
+
+export const staggerContainer = (staggerChildren, delayChildren) => ({
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren,
+      delayChildren,
+    },
+  },
+});
+
+export const textVariant = (delay) => ({
+  hidden: {
+    y: 50,
+    opacity: 0,
+  },
+  show: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: 'spring',
+      duration: 1.25,
+      delay,
+    },
+  },
+});
+
+export const textContainer = {
+  hidden: {
+    opacity: 0,
+  },
+  show: (i = 1) => ({
+    opacity: 1,
+    transition: { staggerChildren: 0.1, delayChildren: i * 0.1 },
+  }),
+};
+
+export const textVariant2 = {
+  hidden: {
+    opacity: 0,
+    y: 20,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: 'tween',
+      ease: 'easeIn',
+    },
+  },
+};
+
+export const fadeIn = (direction, type, delay, duration) => ({
+  hidden: {
+    x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
+    y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
+    opacity: 0,
+  },
+  show: {
+    x: 0,
+    y: 0,
+    opacity: 1,
+    transition: {
+      type,
+      delay,
+      duration,
+      ease: 'easeOut',
+    },
+  },
+});
+
+export const planetVariants = (direction) => ({
+  hidden: {
+    x: direction === 'left' ? '-100%' : '100%',
+    rotate: 120,
+  },
+  show: {
+    x: 0,
+    rotate: 0,
+    transition: {
+      type: 'spring',
+      duration: 1.8,
+      delay: 0.5,
+    },
+  },
+});
+
+export const zoomIn = (delay, duration) => ({
+  hidden: {
+    scale: 0,
+    opacity: 0,
+  },
+  show: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      type: 'tween',
+      delay,
+      duration,
+      ease: 'easeOut',
+    },
+  },
+});
+
+export const footerVariants = {
+  hidden: {
+    opacity: 0,
+    y: 50,
+    transition: {
+      type: 'spring',
+      stiffness: 300,
+      damping: 140,
+    },
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: 'spring',
+      stiffness: 80,
+      delay: 0.5,
+    },
+  },
+};
+
+const styles = {
+  innerWidth: '2xl:max-w-[1280px] w-full',
+  interWidth: 'lg:w-[80%] w-[100%]',
+
+  paddings: 'sm:p-16 xs:p-8 px-6 py-12',
+  yPaddings: 'sm:py-16 xs:py-8 py-12',
+  xPaddings: 'sm:px-16 px-6',
+  topPaddings: 'sm:pt-16 xs:pt-8 pt-12',
+  bottomPaddings: 'sm:pb-16 xs:pb-8 pb-12',
+
+  flexCenter: 'flex justify-center items-center',
+  flexStart: 'flex justify-start items-start',
+  flexEnd: 'flex justify-end',
+  navPadding: 'pt-[98px]',
+
+  // hero section
+  heroHeading:
+      'font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
+  heroDText:
+      'md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]',
+};
+
+export default styles;
 

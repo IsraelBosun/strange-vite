@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom"
+import { motion } from 'framer-motion'
 import NavLink from './NavLink.jsx'
 import MobileNavLink from './MobileNavLink.jsx'
 import { navLinks } from "../container/Data.jsx"
 import { AiOutlineShoppingCart } from "react-icons/ai"
 import { HiMenuAlt1, HiX } from "react-icons/hi";
+import styles from "../container/Data.jsx"
+import { navVariants } from '../container/Data.jsx'
 
 
 
@@ -22,7 +25,10 @@ const Navbar = () => {
     }, [active])
 
     return (
-        <div
+        <motion.nav
+        variants={navVariants}
+        initial = "hidden"
+        whileInView= "show"
             className={`${active ? "shadow-lg bg-white" : ""} sticky w-full top-0 left-0 z-20`}
         >
             <div>
@@ -66,7 +72,7 @@ const Navbar = () => {
                     }
                 </div>
             </div>
-        </div>
+        </motion.nav>
     )
 }
 

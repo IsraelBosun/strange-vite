@@ -10,14 +10,14 @@ import PrivacyPolicy from './components/privacy/PrivacyPolicy'
 import Blog from "./components/blog/Blog"
 import BlogDetails from "./components/blog/BlogDetails"
 import './App.css'
-import useFetch from "./components/hooks/UseFetch"
+// import useFetch from "./components/hooks/UseFetch"
 
 function App() {
-  const { loading, error, data} = useFetch('http://localhost:1337/api/marcuses?populate=*');
-  const [count, setCount] = useState(0)
+  // const { loading, error, data} = useFetch('http://localhost:1337/api/marcuses?populate=*');
+  // const [count, setCount] = useState(0)
 
-  if (loading) return <p>loading</p>
-  if (error) return <p>Error :(</p>
+  // if (loading) return <p>loading</p>
+  // if (error) return <p>Error :(</p>
 
   return (
     <div>
@@ -29,8 +29,8 @@ function App() {
           <Route path="/books" element={<Books />} />
           <Route path="/books/:id" element={<BooksDetails />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
-          <Route path="/blog" element={<Blog blogs={data?data:""} />} />
-          <Route path="/blog/:id" element={<BlogDetails blogs={data?data:""} />} />
+          {/* <Route path="/blog" element={<Blog blogs={data?data:""} />} />
+          <Route path="/blog/:id" element={<BlogDetails blogs={data?data:""} />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>

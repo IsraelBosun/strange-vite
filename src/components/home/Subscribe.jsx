@@ -10,8 +10,8 @@ const Subscribe = () => {
                 <p className='text-xl font-bolf text-center'>Subscribe to my newsletter</p>
                 <form action="" className='sm-w-full xs:w-[1/2] flex  flex-col xs:flex-row  items-center space-y-2  '>
                     <label htmlFor="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email address" className='rounded-tl-md rounded-bl-md  py-2 px-3 ' required />
-                    <button type="submit" className=' rounded-tr-md rounded-br-md py-2 px-3 bg-blue-800 xs-mt-2 sm-mt-0 text-white'>Subscribe</button>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" className='rounded-md xs-rounded-tl-md xs-rounded-bl-md  py-2 px-3 ' required />
+                    <button type="submit" className='rounded-md  xs-rounded-tr-md xs-rounded-br-md py-2 px-3 bg-blue-800 xs-mt-2 sm-mt-0 text-white'>Subscribe</button>
                 </form>
                 <div className='grid grid-cols-2 md:grid-cols-3 gap-3 p-3'>
                     <div className='flex items-center justify-center gap-2'>
