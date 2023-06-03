@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "../container/Header"
-import About from "../../assets/marcus.jpeg";
+import About from "../../assets/contact.jpg";
 import {GoLocation} from "react-icons/go"
 import { AiOutlineWhatsApp, AiOutlineMail } from "react-icons/ai"
 import facebook from "../../assets/facebook.png"
@@ -32,9 +32,9 @@ const Contact = () => {
               +234 813 788 5695
             </a>
             <div className='flex items-center pl-2  gap-3 bg-blue-700 py-4  rounded-lg text-white fit-content '>
-              <a target='_blank' href="mailto:droluwoles@gmail.com" className='flex justify-center  gap-3'>
+              <a target='_blank' href="mailto:meetdoctorgreen@gmail.com" className='flex justify-center  gap-3'>
                 <AiOutlineMail className='text-white  text-3xl' />
-                droluwole@gmail.com
+                meetdoctorgreen@gmail.com
               </a>
             </div>
             <div className='flex items-center gap-3 py-4  font-bold'>

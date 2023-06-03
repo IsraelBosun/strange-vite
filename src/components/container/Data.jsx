@@ -3,6 +3,11 @@ import book from "../../assets/About.jpeg"
 import { AiOutlineArrowRight } from "react-icons/ai"
 import { FaBriefcaseMedical, FaBookOpen } from "react-icons/fa"
 import { MdBusinessCenter } from "react-icons/md"
+import bp from "../../assets/books/bp-control.png"
+import funded from "../../assets/books/get-funded.png"
+import headstart from "../../assets/books/headstart.png"
+import opinion from "../../assets/books/opinion.png"
+
 
 
 export const navLinks = [
@@ -180,34 +185,34 @@ export const blogging = [
 export const books = [
   {
     id: 1,
-    image: book,
+    image: bp,
     category: "Health",
-    title: "How to cure Hypertension",
-    price: "#1000",
+    title: "30-Day Blood Pressure Control",
+    price: "#1,000",
     details: "This book provides a comprehensive guide on how to effectively manage and cure hypertension. It covers topics such as understanding the causes of hypertension, adopting a healthy lifestyle, implementing dietary changes, and exploring medical treatment options. With practical tips and expert advice, this book will empower you to take control of your health and overcome hypertension for good."
   },
   {
     id: 2,
-    image: book,
+    image: headstart,
     category: "Entrepreneurship",
-    title: "Head Start: Financing your businesss",
-    price: "#1200",
+    title: "Head Start",
+    price: "#1,200",
     details: "Starting a business can be challenging, especially when it comes to financing. This book offers valuable insights and practical advice on how to secure funding for your business. It covers various financing options, including loans, grants, crowdfunding, and angel investors. Whether you're a startup founder or an aspiring entrepreneur, this book will equip you with the knowledge and tools to navigate the complex world of business financing and set your venture up for success."
   },
   {
     id: 3,
-    image: book,
+    image: funded,
     category: "Self help",
-    title: "How to be resilent in life",
-    price: "#9900",
+    title: "Get Funded",
+    price: "#2,000",
     details: "Life is full of challenges and setbacks, but resilience is the key to overcoming them and thriving. This book explores the concept of resilience and provides practical strategies for developing resilience in various areas of life. It covers topics such as mindset, emotional intelligence, coping skills, and building a support network. Whether you're facing personal or professional challenges, this book will empower you to bounce back, adapt, and grow stronger in the face of adversity."
   },
   {
     id: 4,
-    image: book,
+    image: opinion,
     category: "Health",
     title: "How to marry the right person",
-    price: "#8500",
+    price: "#8,500",
     details: "Choosing the right life partner is one of the most important decisions you'll ever make. This book offers valuable insights and practical advice on finding and attracting your ideal partner. It covers topics such as self-discovery, relationship compatibility, effective communication, and building a strong and fulfilling partnership. Whether you're single or in a relationship, this book will guide you on the path to finding lasting love and happiness."
   },
   {
