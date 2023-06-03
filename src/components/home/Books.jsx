@@ -68,7 +68,7 @@ const Books = () => {
             <div className='mt-12 '>
                 <Swiper
                         onSwiper={setSwiperRef}
-                        slidesPerView={1.5}
+                        slidesPerView={1.2}
                         centeredSlides={true}
                         spaceBetween={20}
                         pagination={{
