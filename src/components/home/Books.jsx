@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { books } from "../container/Data"
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
@@ -6,7 +6,54 @@ import BooksContainer from '../container/BooksContainer.jsx'
 import { TypingText } from '../container/TypingTexts';
 import { fadeIn, staggerContainer } from '../container/Data'
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "./styles.css";
+
+// import required modules
+import { Pagination, Navigation } from "swiper";
+
+
+
 const Books = () => {
+
+    const [swiperRef, setSwiperRef] = useState(null);
+
+  let appendNumber = 4;
+  let prependNumber = 1;
+
+  const prepend2 = () => {
+    swiperRef.prependSlide([
+      '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+      '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+    ]);
+  };
+
+  const prepend = () => {
+    swiperRef.prependSlide(
+      '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+    );
+  };
+
+  const append = () => {
+    swiperRef.appendSlide(
+      '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+    );
+  };
+
+  const append2 = () => {
+    swiperRef.appendSlide([
+      '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+      '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+    ]);
+  };
+
+  
     return (
         <motion.section     variants={staggerContainer}
         initial = "hidden"
@@ -18,12 +65,25 @@ const Books = () => {
             <TypingText title = "Check out my books" textStyles = "font-semibold" />
             </div>
 
-            <div className='mt-12 overflow-x-hidden w-full relative'>
-                <div className='flex gap-8 md:w-full sm:w-[170%] xs:w-[340%] w-[350%] animate-slide'>
+            <div className='mt-12 '>
+                <Swiper
+                        onSwiper={setSwiperRef}
+                        slidesPerView={1.5}
+                        centeredSlides={true}
+                        spaceBetween={20}
+                        pagination={{
+                          type: "fraction",
+                        }}
+                        navigation={true}
+                        modules={[Pagination, Navigation]}
+                className=''>
                     {books.slice(0, 4).map(course => {
-                        return <BooksContainer key={course.id} {...course} />
+                        return ( <SwiperSlide className=''>
+                            <BooksContainer key={course.id} {...course} />
+                        </SwiperSlide>
+                        ) 
                     })}
-                </div>
+                </Swiper>
             </div>
         </motion.section>
     )

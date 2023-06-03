@@ -46,12 +46,12 @@ export const navLinks = [
     },
     {
       id: 'world-2',
-      imgUrl: book,
+      imgUrl: funded,
       title: 'Your health and you',
     },
     {
       id: 'world-3',
-      imgUrl: book,
+      imgUrl: headstart,
       title: 'Making Money is not hard',
     },
     {

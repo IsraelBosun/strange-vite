@@ -36,16 +36,16 @@ const BlogContainer = ({ image, title, text, button, id, imgUrl, index, active, 
       ) : (
           <div className="absolute bottom-0 p-8 justify-start h-full w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px] ">
             <div className= {`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}>
-              <img 
+              {/* <img 
               src="/headset.svg" 
               alt="headset"
               className="w-1/2 h-1/2 object-contain"
-              />
+              /> */}
             </div>
             <h2 className="mt-[24] font-semobold sm:text-[32px] text-[24px] text-white" >
               {title}
             </h2>
-            <Link to = "" className="font-normal bg-blue-600 px-3 rounded-xl py-1 w-1/2 mt-4 text-xs leading-[20px] text-white uppercase  " >
+            <Link to = "" className="font-normal bg-blue-600 px-3 rounded-xl py-1 w-1/2 mt-7  leading-[20px] text-white uppercase  " >
               Read More
             </Link >
           </div>
