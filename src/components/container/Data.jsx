@@ -330,7 +330,7 @@ export const bloggers = [
     image: book,
     category: "Marriage",
     title:"Do this to prevent hypertension and sleep properly every day at night",
-    date: 'October 21, 2022',
+    // date: 'October 21, 2022',
     preview: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos!",
     details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia ducimus velit, reprehenderit ipsum nostrum assumenda facere non placeat at corrupti minus hic dignissimos! Dolores vero vel, illum quibusdam voluptatem quidem esse optio ipsam reprehenderit quod odit cum voluptatibus deserunt ducimus magni voluptates. Fugit, quas sint distinctio rem culpa modi soluta repellendus nam ducimus et, ratione omnis eum! Odit consequatur at laudantium sapiente doloribus, rem iusto quas ad repellat quae nihil facilis voluptatem eos nobis voluptatibus minima fugiat, ratione eligendi, necessitatibus dolores? Quae dolor recusandae est! Aliquam eveniet dolorem quas unde eos itaque sint corporis, rem enim accusantium repudiandae dicta aspernatur possimus soluta dolorum tempora aut, modi eius harum! Sit nostrum dicta id mollitia nesciunt illum, minima laboriosam necessitatibus quam maxime autem quae quaerat ex dolores perferendis facilis quia tempore. Quam obcaecati quo, nulla excepturi vero dolor officia aut quidem incidunt eveniet voluptas dignissimos expedita. Omnis voluptas, ut laudantium architecto nostrum, quibusdam maxime eveniet voluptatem blanditiis at mollitia. Voluptatibus quam dolor est, repellat qui eaque fugit sequi enim minus deleniti libero nesciunt officia corporis explicabo nihil itaque expedita beatae porro deserunt debitis earum molestiae repudiandae eum voluptatem. Voluptatem, sed, vitae ab dolorum quibusdam quaerat maxime praesentium commodi tempora sequi consectetur.",
     date: "October 23, 2023"
@@ -407,7 +407,7 @@ export const textContainer = {
   },
   show: (i = 1) => ({
     opacity: 1,
-    transition: { staggerChildren: 0.1, delayChildren: i * 0.1 },
+    transition: { staggerChildren: 0.05, delayChildren: i * 0.5 },
   }),
 };
 

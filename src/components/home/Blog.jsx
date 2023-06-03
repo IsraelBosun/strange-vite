@@ -24,7 +24,7 @@ const Blog = () => {
                 <TypingText title = "Here are some" textStyles = "t font-bold mb-4"  />
             </div>
             <div className='overflow-x-hidden'>
-            <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+            <div className="mt-[50px] flex md:flex-row flex-col min-h-[70vh] gap-5">
                 {
                     exploreWorlds.map((bloggers, index) => {
                         return (
