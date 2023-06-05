@@ -16,21 +16,21 @@ export const navLinks = [
       href: "/",
       link: "Home",
     },
-    {
-      id: 2,
-      href: "about",
-      link: "About",
-    },
+    // {
+    //   id: 2,
+    //   href: "about",
+    //   link: "About",
+    // },
     {
       id: 3,
       href: "books",
       link: "Books",
     },
-    {
-      id: 4,
-      href: "blog",
-      link: "Blog",
-    },
+    // {
+    //   id: 4,
+    //   href: "blog",
+    //   link: "Blog",
+    // },
     {
       id: 5,
       href: "contact",
@@ -188,64 +188,63 @@ export const books = [
     image: bp,
     category: "Health",
     title: "30-Day Blood Pressure Control",
-    price: "#1,000",
-    details: "This book provides a comprehensive guide on how to effectively manage and cure hypertension. It covers topics such as understanding the causes of hypertension, adopting a healthy lifestyle, implementing dietary changes, and exploring medical treatment options. With practical tips and expert advice, this book will empower you to take control of your health and overcome hypertension for good."
+    price: "#1,650",
+    details: "This book provides a comprehensive guide on how to effectively manage and cure hypertension. It covers topics such as understanding the causes of hypertension, adopting a healthy lifestyle, implementing dietary changes, and exploring medical treatment options. With practical tips and expert advice, this book will empower you to take control of your health and overcome hypertension for good.",
+    Link: 'https://www.google.com'
   },
   {
     id: 2,
-    image: headstart,
-    category: "Entrepreneurship",
-    title: "Head Start",
-    price: "#1,200",
-    details: "Starting a business can be challenging, especially when it comes to financing. This book offers valuable insights and practical advice on how to secure funding for your business. It covers various financing options, including loans, grants, crowdfunding, and angel investors. Whether you're a startup founder or an aspiring entrepreneur, this book will equip you with the knowledge and tools to navigate the complex world of business financing and set your venture up for success."
+    image: bp,
+    category: "Health",
+    title: "7 Days Of Heart Care",
+    price: "#8,500",
+    details: "Choosing the right life partner is one of the most important decisions you'll ever make. This book offers valuable insights and practical advice on finding and attracting your ideal partner. It covers topics such as self-discovery, relationship compatibility, effective communication, and building a strong and fulfilling partnership. Whether you're single or in a relationship, this book will guide you on the path to finding lasting love and happiness.",
+    Link: 'https://www.google.com'
+  },
+  {
+    id: 3,
+    image: bp,
+    category: "Health",
+    title: "Blood Pressure Tranquilizers",
+    price: "#1,050",
+    details: "In this book, you'll discover practical strategies and tips for maintaining a healthy lifestyle in Nigeria. It covers various aspects of health, including nutrition, exercise, stress management, and disease prevention. With a focus on the Nigerian context, this book provides relevant and actionable advice to help you live your best and healthiest life. Whether you're looking to lose weight, improve your fitness, or enhance your overall well-being, this book is your ultimate guide.",
+    Link: 'https://www.google.com'
   },
   {
     id: 3,
     image: funded,
-    category: "Self help",
+    category: "Entrepreneurship",
     title: "Get Funded",
     price: "#2,000",
-    details: "Life is full of challenges and setbacks, but resilience is the key to overcoming them and thriving. This book explores the concept of resilience and provides practical strategies for developing resilience in various areas of life. It covers topics such as mindset, emotional intelligence, coping skills, and building a support network. Whether you're facing personal or professional challenges, this book will empower you to bounce back, adapt, and grow stronger in the face of adversity."
+    details: "Starting a business can be challenging, especially when it comes to financing. This book offers valuable insights and practical advice on how to secure funding for your business. It covers various financing options, including loans, grants, crowdfunding, and angel investors. Whether you're a startup founder or an aspiring entrepreneur, this book will equip you with the knowledge and tools to navigate the complex world of business financing and set your venture up for success.",
+    Link: 'https://www.google.com'
   },
   {
     id: 4,
-    image: opinion,
-    category: "Health",
-    title: "How to marry the right person",
-    price: "#8,500",
-    details: "Choosing the right life partner is one of the most important decisions you'll ever make. This book offers valuable insights and practical advice on finding and attracting your ideal partner. It covers topics such as self-discovery, relationship compatibility, effective communication, and building a strong and fulfilling partnership. Whether you're single or in a relationship, this book will guide you on the path to finding lasting love and happiness."
+    image: headstart,
+    category: "Entrepreneurship",
+    title: "Fight",
+    price: "#1,200",
+    details: "Achieving financial independence and building everlasting wealth is a goal shared by many. In this book, you'll learn proven strategies and principles for creating and preserving wealth. It covers topics such as personal finance, investing, entrepreneurship, and wealth mindset. Whether you're just starting your wealth-building journey or looking to enhance your financial knowledge, this book will provide you with the insights and guidance you need to achieve lasting financial success.",
+    Link: 'https://www.google.com'
   },
   {
     id: 5,
-    image: book,
+    image: headstart,
     category: "Entrepreneurship",
-    title: "Everlasting Wealth",
-    price: "#1050",
-    details: "Achieving financial independence and building everlasting wealth is a goal shared by many. In this book, you'll learn proven strategies and principles for creating and preserving wealth. It covers topics such as personal finance, investing, entrepreneurship, and wealth mindset. Whether you're just starting your wealth-building journey or looking to enhance your financial knowledge, this book will provide you with the insights and guidance you need to achieve lasting financial success."
+    title: "Headstart",
+    price: "#1,100",
+    details: "Making money is a skill that can be learned and mastered. This book offers practical tips and strategies for generating income and building financial abundance. It covers various income sources, including entrepreneurship, investing, and passive income streams. Whether you're looking to start a side hustle, grow your existing business, or explore new avenues for income, this book will inspire and guide you on your money-making journey.",
+    Link: 'https://www.google.com'
   },
-  {
-    id: 6,
-    image: book,
+   {
+    id: 2,
+    image: headstart,
     category: "Self help",
-    title: "How to eat that frog",
-    price: "#1050",
-    details: "Procrastination can hinder your productivity and prevent you from reaching your goals. In this book, you'll discover effective techniques for overcoming procrastination and getting things done. It offers practical strategies, time management tips, and prioritization techniques to help you tackle your most challenging tasks head-on. Whether you're a student, professional, or anyone looking to overcome procrastination and boost your productivity, this book will provide you with the tools and motivation you need."
-  },
-  {
-    id: 7,
-    image: book,
-    category: "Health",
-    title: "Living Healthy in Nigeria",
-    price: "#1050",
-    details: "Maintaining good health is crucial for a fulfilling life. This book focuses on practical tips and insights specifically tailored to the Nigerian context. It covers topics such as nutrition, exercise, mental well-being, and preventive healthcare. Whether you're a Nigerian resident or interested in the Nigerian healthcare system, this book will guide you on the path to living a healthy and balanced life in Nigeria."
-  },
-  {
-    id: 8,
-    image: book,
-    category: "Entrepreneurship",
-    title: "How to make money",
-    price: "#1050",
-    details: "Making money is a skill that can be learned and mastered. In this book, you'll discover proven strategies and techniques for generating wealth and financial success. It covers topics such as income streams, investments, entrepreneurship, and personal finance. Whether you're looking to increase your income, build a successful business, or explore new avenues for income, this book will inspire and guide you on your money-making journey."
+    title: "The Missing Link",
+    price: "#1,050",
+    details: "Procrastination can hinder your productivity and prevent you from reaching your goals. In this book, you'll discover effective techniques for overcoming procrastination and getting things done. It offers practical strategies, time management tips, and prioritization techniques to help you tackle your most challenging tasks head-on. Whether you're a student, professional, or anyone looking to overcome procrastination and boost your productivity, this book will provide you with the tools and motivation you need.",
+    Link: 'https://www.google.com'
   },
 ];
 

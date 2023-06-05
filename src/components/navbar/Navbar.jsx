@@ -47,12 +47,12 @@ const Navbar = () => {
                         })}
                     </div>
                     <div className='flex items-center gap-4'>
-                        <button className='relative py-3 px-6 font-thin text-3xl'>
+                        {/* <button className='relative py-3 px-6 font-thin text-3xl'>
                             <AiOutlineShoppingCart
                                 onClick={() => setShowCart(true)}
                             />
                             <div className="absolute top-0 right-4 w-4  h-4 rounded-full  text-xs bg-red-700 text-white ">0</div>
-                        </button>
+                        </button> */}
                         <HiMenuAlt1
                             className='text-3xl sm:hidden text-thin cursor-pointer'
                             onClick={() => setToggle(true)}

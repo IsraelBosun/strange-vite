@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
+    "@formspree/react": "^2.4.2",
     "@headlessui/react": "^1.7.14",
     "framer-motion": "^10.12.16",
     "polished": "^4.2.2",

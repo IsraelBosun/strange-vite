@@ -27,7 +27,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/books" element={<Books />} />
-          <Route path="/books/:id" element={<BooksDetails />} />
+          {/* <Route path="/books/:id" element={<BooksDetails />} /> */}
           <Route path="/privacy" element={<PrivacyPolicy />} />
           {/* <Route path="/blog" element={<Blog blogs={data?data:""} />} />
           <Route path="/blog/:id" element={<BlogDetails blogs={data?data:""} />} /> */}
