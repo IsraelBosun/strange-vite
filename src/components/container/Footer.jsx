@@ -6,7 +6,7 @@ import instagram from "../../assets/instagram.png"
 import twitter from "../../assets/twitter.png"
 import youtube from "../../assets/youtube.png"
 import linkedin from "../../assets/linkedin.png"
-import logo from "../../assets/marclogo.png"
+import logo from "../../assets/marlogo.png"
 
 
 const Footer = () => {
@@ -14,9 +14,9 @@ const Footer = () => {
         <section className='bg-[#151B28]'>
         <div className=' section sm:text-md text-sm w-full p-5   grid justify-between items- grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-9 '>
             <div className='flex flex-col gap-3'>
-                <div className='w-1/3'>
+                <Link to = "/" className='w-1/3'>
                     <img src={logo} alt="Logo" />
-                </div>
+                </Link>
                 <p className='text-[#A5ACBA]'>Dr. Oluwole: committed to improving health outcomes through compassion and innovation.</p>
             </div>
             <div className = "grid grid-cols-2 gap-9">

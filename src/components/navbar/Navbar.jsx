@@ -8,7 +8,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai"
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 import styles from "../container/Data.jsx"
 import { navVariants } from '../container/Data.jsx'
-import logo from "../../assets/marclogo.png"
+import logo from "../../assets/marlogo.png"
 
 
 
@@ -36,9 +36,9 @@ const Navbar = () => {
                 <div
                     className={`${active ? "py-2 transition-all duration-300" : "py-4"} container mx-auto flex items-center justify-between px-2`}
                 >
-                    <Link to="/" className = "w-1/3">
+                    <Link to="/" className = "w-1/3 max-w-[250px]">
                         {/* <div className='text-xl text-Blue uppercase tracking-wide '>DR Marcus</div> */}
-                        <img src={logo} alt="" />
+                        <img src={logo} alt="" className='' />
                     </Link>
                     <div className='flex items-center'>
                     <div className='sm:flex items-center hidden'>
@@ -61,7 +61,7 @@ const Navbar = () => {
                     </div>
                     {
                         toggle && (
-                            <div className="fixed h-full w-5/6 top-0 left-0 z-20 bg-white text-blue-800 flex flex-col justify-center border  items-center shadow-lg gap-8 py-8" >
+                            <div className="fixed h-full w-5/6 top-0 left-0 z-20 bg-white text-blue-800 flex flex-col justify-center   items-center shadow-xl gap-8 py-8" >
                                 {navLinks.map((navLink) => {
                                     return (<MobileNavLink key={navLink.id} {...navLink} setToggle={setToggle} />)
                                 })}
