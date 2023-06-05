@@ -8,6 +8,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai"
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 import styles from "../container/Data.jsx"
 import { navVariants } from '../container/Data.jsx'
+import logo from "../../assets/marclogo.png"
 
 
 
@@ -35,8 +36,9 @@ const Navbar = () => {
                 <div
                     className={`${active ? "py-2 transition-all duration-300" : "py-4"} container mx-auto flex items-center justify-between px-2`}
                 >
-                    <Link to="/">
-                        <div className='text-xl text-Blue uppercase tracking-wide '>DR Marcus</div>
+                    <Link to="/" className = "w-1/3">
+                        {/* <div className='text-xl text-Blue uppercase tracking-wide '>DR Marcus</div> */}
+                        <img src={logo} alt="" />
                     </Link>
                     <div className='flex items-center'>
                     <div className='sm:flex items-center hidden'>
