@@ -1,17 +1,13 @@
 import React from 'react';
 import Header from "../container/Header"
 import About from "../../assets/contact.jpg";
-import {GoLocation} from "react-icons/go"
 import { AiOutlineWhatsApp, AiOutlineMail } from "react-icons/ai"
-import facebook from "../../assets/facebook.png"
-import twitter from "../../assets/twitter.png"
-import youtube from "../../assets/youtube.png"
-import linkedin from "../../assets/linkedin.png"
 import { BsTwitter } from "react-icons/bs"
 import { useForm, ValidationError } from '@formspree/react';
+import toast, { Toaster } from 'react-hot-toast';
 
 
-
+// toast.success("Payment successful!");
 
 const Contact = () => {
 
@@ -19,10 +15,8 @@ const Contact = () => {
   if (state.succeeded) {
       return <Contact />;
   }
-
-
   return (
-    <div className=' text-blue-600'>
+    <div id = "contact" className=' text-blue-600'>
       <Header title="Contact" image={About}>
        Do you want to personally speak or meet with me?
       </Header>
@@ -54,38 +48,23 @@ const Contact = () => {
               
             </a>
           </div>
-          {/* <div className='flex   items-center gap-4 text-Teal '>
-            <div className = "w-[10%]">
-              <img src={facebook} alt="facebook" className ="" />
-            </div>
-            <div className = "w-[10%]">
-              <img src={twitter} alt="twitter" className ="w-full" />
-            </div>
-            <div className = "w-[10%]">
-              <img src={linkedin} alt="linkedin" className ="w-full" />
-            </div>
-            <div className = "w-[10%]">
-              <img src={youtube} alt="linkedin" className ="w-full" />
-            </div>
-          </div> */}
         </div>
 
         <div className='mt-5 bg-white shadow-2xl text-blue-600 opacity- p-8 rounded-3xl' >
           <form className="max-w-md mx-auto"  onSubmit={handleSubmit}>
             <label htmlFor="name" className="block mb-2 font-semibold">Name</label>
-            <input type="text" id="name" name="name" className="rounded-lg w-full px-4 py-2 mb-4 border rounded border-Teal outline-blue-600" />
-            <label htmlFor="email" className="block mb-2 font-semibold">Email</label>
+            <input type="text" required id="name" name="name" className="rounded-lg w-full px-4 py-2 mb-4 border rounded border-Teal outline-blue-600" />
+            <label htmlFor="email" required className="block mb-2 font-semibold">Email</label>
             <div className="relative flex">
-              <input type="email" id="email" name="email" className="rounded-lg w-full px-4 py-2 mb-4 border rounded border-Teal outline-blue-600" />
+              <input type="email" required id="email" name="email" className="rounded-lg w-full px-4 py-2 mb-4 border rounded border-Teal outline-blue-600" />
               <ValidationError 
         prefix="Email" 
         field="email"
         errors={state.errors}
       />
-              {/* <AiOutlineMail className="absolute left-2  top-1 text-3xl  text-Teal" /> */}
             </div>
-            <label htmlFor="message" className="block mb-2 font-semibold">Message</label>
-            <textarea id="message" name="message" rows="4" className="rounded-lg w-full px-4 py-2 mb-4 border rounded border-Teal outline-blue-600" placeholder='Write to me' />
+            <label htmlFor="message"  className="block mb-2 font-semibold">Message</label>
+            <textarea id="message" required name="message" rows="4" className="rounded-lg w-full px-4 py-2 mb-4 border rounded border-Teal outline-blue-600" placeholder='Write to me' />
             <button  type="submit" disabled={state.submitting} className=" bg-blue-600 text-white  px-4 py-2 rounded-xl hover:bg-blue-700">Submit</button>
           </form>
 

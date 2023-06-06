@@ -11,7 +11,7 @@ import { fadeIn, staggerContainer } from '../container/Data'
 
 const data = [
   {
-    title: (<div className ="font-bold  text-blue-600">To find a solution to their hypertension</div>), 
+    title: (<div className ="font-bold  text-blue-600">I have high BP. When will I stop taking  hypertension medications? </div>), 
     contents: (
       <div>
         Get your blood tests delivered at let collect sample from the victory of
@@ -20,7 +20,7 @@ const data = [
     ),
   },
   {
-    title: (<div className = "font-bold text-blue-600">To overcome diabetes</div>),
+    title: (<div className = "font-bold text-blue-600"> My mom (or dad) has hypertension, what can I do to prevent stroke?</div>),
     contents: (
       <div className=''>
         Get your blood tests delivered at let collect sample from the victory of
@@ -29,7 +29,7 @@ const data = [
     ),
   },
   {
-    title: (<div className='font-bold text-blue-600'>To develop a super powered memory</div>), 
+    title: (<div className='font-bold text-blue-600'>What can I do to lose weight and sustain it.</div>), 
     contents: (
       <div>
         Get your blood tests delivered at let collect sample from the victory of

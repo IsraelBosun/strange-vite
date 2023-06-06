@@ -61,8 +61,8 @@ const PrivacyPolicy = () => {
                     If you have any questions or concerns about this Privacy Policy, please contact us:
                 </p>
                 <ul className="list-disc pl-6 mb-4">
-                    <li>Email: droluwole@gmail.com</li>
-                    <li>Phone: 123-456-7890</li>
+                    <li>Email: meetdoctorgreen@gmail.com</li>
+                    <li>Phone: +234 813 788 5695</li>
                 </ul>
 
                 <p className="mb-4">

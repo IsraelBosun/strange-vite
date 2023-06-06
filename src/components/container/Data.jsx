@@ -7,6 +7,13 @@ import bp from "../../assets/books/bp-control.png"
 import funded from "../../assets/books/get-funded.png"
 import headstart from "../../assets/books/headstart.png"
 import opinion from "../../assets/books/opinion.png"
+import fight from "../../assets/books/fight.png"
+import heart from "../../assets/books/Heart.png"
+import getfunded from "../../assets/books/getfundedd.png"
+import tranqulizers from "../../assets/books/tranqulizers.png"
+import headstartt from "../../assets/books/headstartt.png"
+import missinglinkk from "../../assets/books/missinglinkk.png"
+
 
 
 
@@ -183,69 +190,69 @@ export const blogging = [
 ]
 
 export const books = [
-  {
-    id: 1,
-    image: bp,
-    category: "Health",
-    title: "30-Day Blood Pressure Control",
-    price: "#1,650",
-    details: "This book provides a comprehensive guide on how to effectively manage and cure hypertension. It covers topics such as understanding the causes of hypertension, adopting a healthy lifestyle, implementing dietary changes, and exploring medical treatment options. With practical tips and expert advice, this book will empower you to take control of your health and overcome hypertension for good.",
-    Link: 'https://www.google.com'
-  },
-  {
-    id: 2,
-    image: bp,
-    category: "Health",
-    title: "7 Days Of Heart Care",
-    price: "#8,500",
-    details: "Choosing the right life partner is one of the most important decisions you'll ever make. This book offers valuable insights and practical advice on finding and attracting your ideal partner. It covers topics such as self-discovery, relationship compatibility, effective communication, and building a strong and fulfilling partnership. Whether you're single or in a relationship, this book will guide you on the path to finding lasting love and happiness.",
-    Link: 'https://www.google.com'
-  },
-  {
-    id: 3,
-    image: bp,
-    category: "Health",
-    title: "Blood Pressure Tranquilizers",
-    price: "#1,050",
-    details: "In this book, you'll discover practical strategies and tips for maintaining a healthy lifestyle in Nigeria. It covers various aspects of health, including nutrition, exercise, stress management, and disease prevention. With a focus on the Nigerian context, this book provides relevant and actionable advice to help you live your best and healthiest life. Whether you're looking to lose weight, improve your fitness, or enhance your overall well-being, this book is your ultimate guide.",
-    Link: 'https://www.google.com'
-  },
-  {
-    id: 3,
-    image: funded,
-    category: "Entrepreneurship",
-    title: "Get Funded",
-    price: "#2,000",
-    details: "Starting a business can be challenging, especially when it comes to financing. This book offers valuable insights and practical advice on how to secure funding for your business. It covers various financing options, including loans, grants, crowdfunding, and angel investors. Whether you're a startup founder or an aspiring entrepreneur, this book will equip you with the knowledge and tools to navigate the complex world of business financing and set your venture up for success.",
-    Link: 'https://www.google.com'
-  },
-  {
-    id: 4,
-    image: headstart,
-    category: "Entrepreneurship",
-    title: "Fight",
-    price: "#1,200",
-    details: "Achieving financial independence and building everlasting wealth is a goal shared by many. In this book, you'll learn proven strategies and principles for creating and preserving wealth. It covers topics such as personal finance, investing, entrepreneurship, and wealth mindset. Whether you're just starting your wealth-building journey or looking to enhance your financial knowledge, this book will provide you with the insights and guidance you need to achieve lasting financial success.",
-    Link: 'https://www.google.com'
-  },
-  {
-    id: 5,
-    image: headstart,
-    category: "Entrepreneurship",
-    title: "Headstart",
-    price: "#1,100",
-    details: "Making money is a skill that can be learned and mastered. This book offers practical tips and strategies for generating income and building financial abundance. It covers various income sources, including entrepreneurship, investing, and passive income streams. Whether you're looking to start a side hustle, grow your existing business, or explore new avenues for income, this book will inspire and guide you on your money-making journey.",
-    Link: 'https://www.google.com'
-  },
-   {
-    id: 2,
-    image: headstart,
-    category: "Self help",
-    title: "The Missing Link",
-    price: "#1,050",
-    details: "Procrastination can hinder your productivity and prevent you from reaching your goals. In this book, you'll discover effective techniques for overcoming procrastination and getting things done. It offers practical strategies, time management tips, and prioritization techniques to help you tackle your most challenging tasks head-on. Whether you're a student, professional, or anyone looking to overcome procrastination and boost your productivity, this book will provide you with the tools and motivation you need.",
-    Link: 'https://www.google.com'
-  },
+    {
+      id: 1,
+      image: bp,
+      category: "Health",
+      title: "30-Day Blood Pressure Control",
+      price: "#1,650",
+      details: "This book provides a comprehensive guide on how to effectively manage and cure hypertension. It covers topics such as understanding the causes of hypertension, adopting a healthy lifestyle, implementing dietary changes, and exploring medical treatment options. With practical tips and expert advice, this book will empower you to take control of your health and overcome hypertension for good.",
+      Link: 'https://paystack.com/buy/bloodpressureguide'
+    },
+    {
+      id: 2,
+      image: heart,
+      category: "Health",
+      title: "7 Days Of Heart Care",
+      price: "#1,650",
+      details: "Choosing the right life partner is one of the most important decisions you'll ever make. This book offers valuable insights and practical advice on finding and attracting your ideal partner. It covers topics such as self-discovery, relationship compatibility, effective communication, and building a strong and fulfilling partnership. Whether you're single or in a relationship, this book will guide you on the path to finding lasting love and happiness.",
+      Link: 'https://paystack.com/buy/7-days-of-heart-care-czbpsg'
+    },
+    {
+      id: 3,
+      image: tranqulizers,
+      category: "Health",
+      title: "Blood Pressure tranquilizers",
+      price: "#1,650",
+      details: "In this book, you'll discover practical strategies and tips for maintaining a healthy lifestyle in Nigeria. It covers various aspects of health, including nutrition, exercise, stress management, and disease prevention. With a focus on the Nigerian context, this book provides relevant and actionable advice to help you live your best and healthiest life. Whether you're looking to lose weight, improve your fitness, or enhance your overall well-being, this book is your ultimate guide.",
+      Link: 'https://paystack.com/buy/tranquilizers'
+    },
+    {
+      id: 4,
+      image: getfunded,
+      category: "Entrepreneurship",
+      title: "Get Funded",
+      price: "#1,650",
+      details: "Starting a business can be challenging, especially when it comes to financing. This book offers valuable insights and practical advice on how to secure funding for your business. It covers various financing options, including loans, grants, crowdfunding, and angel investors. Whether you're a startup founder or an aspiring entrepreneur, this book will equip you with the knowledge and tools to navigate the complex world of business financing and set your venture up for success.",
+      Link: 'https://paystack.com/buy/get-funded-klbcrr'
+    },
+    {
+      id: 5,
+      image: fight,
+      category: "Entrepreneurship",
+      title: "Fight",
+      price: "#759",
+      details: "Achieving financial independence and building everlasting wealth is a goal shared by many. In this book, you'll learn proven strategies and principles for creating and preserving wealth. It covers topics such as personal finance, investing, entrepreneurship, and wealth mindset. Whether you're just starting your wealth-building journey or looking to enhance your financial knowledge, this book will provide you with the insights and guidance you need to achieve lasting financial success.",
+      Link: 'https://paystack.com/buy/fight-dtlfnw'
+    },
+    {
+      id: 6,
+      image: headstartt,
+      category: "Entrepreneurship",
+      title: "Headstart",
+      price: "#1,650",
+      details: "Making money is a skill that can be learned and mastered. This book offers practical tips and strategies for generating income and building financial abundance. It covers various income sources, including entrepreneurship, investing, and passive income streams. Whether you're looking to start a side hustle, grow your existing business, or explore new avenues for income, this book will inspire and guide you on your money-making journey.",
+      Link: 'https://paystack.com/buy/headstart-nolyfa'
+    },
+      {
+      id: 7,
+      image: missinglinkk,
+      category: "Self help",
+      title: "The Missing Link",
+      price: "#1,650",
+      details: "Procrastination can hinder your productivity and prevent you from reaching your goals. In this book, you'll discover effective techniques for overcoming procrastination and getting things done. It offers practical strategies, time management tips, and prioritization techniques to help you tackle your most challenging tasks head-on. Whether you're a student, professional, or anyone looking to overcome procrastination and boost your productivity, this book will provide you with the tools and motivation you need.",
+      Link: 'https://paystack.com/buy/the-missing-link-eoekrn'
+    },
 ];
 
 

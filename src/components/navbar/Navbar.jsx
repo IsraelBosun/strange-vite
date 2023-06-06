@@ -27,41 +27,45 @@ const Navbar = () => {
 
     return (
         <motion.nav
-        variants={navVariants}
-        initial = "hidden"
-        whileInView= "show"
+            variants={navVariants}
+            initial="hidden"
+            whileInView="show"
             className={`${active ? "shadow-lg bg-white" : ""} sticky w-full top-0 left-0 z-20`}
         >
             <div>
                 <div
                     className={`${active ? "py-2 transition-all duration-300" : "py-4"} container mx-auto flex items-center justify-between px-2`}
                 >
-                    <Link to="/" className = "w-1/3 max-w-[250px]">
+                    <Link to="/" className="w-1/3 max-w-[250px]">
                         {/* <div className='text-xl text-Blue uppercase tracking-wide '>DR Marcus</div> */}
                         <img src={logo} alt="" className='' />
                     </Link>
                     <div className='flex items-center'>
-                    <div className='sm:flex items-center hidden'>
-                        {navLinks.map((navLink) => {
-                            return <NavLink key={navLink.id} {...navLink} />
-                        })}
-                    </div>
-                    <div className='flex items-center gap-4'>
-                        {/* <button className='relative py-3 px-6 font-thin text-3xl'>
+                        <div className='sm:flex items-center hidden'>
+                            {navLinks.map((navLink) => {
+                                return <NavLink key={navLink.id} {...navLink} />
+                            })}
+                        </div>
+                        <div className='flex items-center gap-4'>
+                            {/* <button className='relative py-3 px-6 font-thin text-3xl'>
                             <AiOutlineShoppingCart
                                 onClick={() => setShowCart(true)}
                             />
                             <div className="absolute top-0 right-4 w-4  h-4 rounded-full  text-xs bg-red-700 text-white ">0</div>
                         </button> */}
-                        <HiMenuAlt1
-                            className='text-3xl sm:hidden text-thin cursor-pointer'
-                            onClick={() => setToggle(true)}
-                        />
-                    </div>
+                            <HiMenuAlt1
+                                className='text-3xl sm:hidden text-thin cursor-pointer'
+                                onClick={() => setToggle(true)}
+                            />
+                        </div>
                     </div>
                     {
                         toggle && (
-                            <div className="fixed h-full w-5/6 top-0 left-0 z-20 bg-white text-blue-800 flex flex-col justify-center   items-center shadow-xl gap-8 py-8" >
+                            <motion.div
+                            initial={{ x: -100, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            transition={{ duration: 0.4 }}
+                            className="fixed h-full w-5/6 top-0 left-0 z-20 bg-white text-blue-800 flex flex-col justify-center   items-center shadow-xl gap-8 py-8" >
                                 {navLinks.map((navLink) => {
                                     return (<MobileNavLink key={navLink.id} {...navLink} setToggle={setToggle} />)
                                 })}
@@ -69,7 +73,7 @@ const Navbar = () => {
                                     className="absolute right-12 top-12 text-3xl cursor-pointer"
                                     onClick={(prev) => setToggle(!prev)}
                                 />
-                            </div>
+                            </motion.div>
                         )
                     }
                 </div>

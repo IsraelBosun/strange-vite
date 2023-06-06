@@ -14,7 +14,7 @@ import './App.css'
 
 function App() {
   // const { loading, error, data} = useFetch('http://localhost:1337/api/marcuses?populate=*');
-  // const [count, setCount] = useState(0)
+
 
   // if (loading) return <p>loading</p>
   // if (error) return <p>Error :(</p>
