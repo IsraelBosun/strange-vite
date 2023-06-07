@@ -14,8 +14,7 @@ const data = [
     title: (<div className ="font-bold  text-blue-600">I have high BP. When will I stop taking  hypertension medications? </div>), 
     contents: (
       <div>
-        Get your blood tests delivered at let collect sample from the victory of
-        the managements that supplies best design system guidelines ever.
+        The decision to stop taking hypertension medications should be made in consultation with your doctor, who will assess your blood pressure levels and overall health to determine if and when it's appropriate to discontinue medication.
       </div>
     ),
   },
@@ -23,8 +22,7 @@ const data = [
     title: (<div className = "font-bold text-blue-600"> My mom (or dad) has hypertension, what can I do to prevent stroke?</div>),
     contents: (
       <div className=''>
-        Get your blood tests delivered at let collect sample from the victory of
-        the managements that supplies best design system guidelines ever.
+        To prevent stroke if your parent has hypertension, focus on maintaining a healthy lifestyle with regular exercise, a balanced diet low in sodium and saturated fats, and managing stress levels, while also getting regular blood pressure check-ups.
       </div>
     ),
   },
@@ -32,26 +30,23 @@ const data = [
     title: (<div className='font-bold text-blue-600'>What can I do to lose weight and sustain it.</div>), 
     contents: (
       <div>
-        Get your blood tests delivered at let collect sample from the victory of
-        the managements that supplies best design system guidelines ever.
+        To lose weight and sustain it, adopt a balanced approach that includes a combination of regular physical activity, a nutritious diet consisting of whole foods and portion control, and building healthy habits like mindful eating and staying hydrated. Consider consulting a healthcare professional or registered dietitian for personalized guidance.
       </div>
     ),
   },
   {
-    title: (<div className = "font-bold text-blue-600">Collaborate your documents easily</div>),
+    title: (<div className = "font-bold text-blue-600">How can Nigerian entrepreneurs improve their chances of obtaining financing for their startup ventures?</div>),
     contents: (
       <div className=''>
-        Get your blood tests delivered at let collect sample from the victory of
-        the managements that supplies best design system guidelines ever.
+        Nigerian entrepreneurs can enhance their chances of securing financing by creating a compelling business plan, demonstrating a strong market opportunity, building a reputable network, and showcasing a solid track record or proof of concept to potential investors or funding institutions.
       </div>
     ),
   },
   {
-    title: (<div className='font-bold text-blue-600'>Build your team's knowledge base</div>), 
+    title: (<div className='font-bold text-blue-600'>What are some key strategies for entrepreneurs to survive and thrive in the Nigerian business landscape?</div>), 
     contents: (
       <div>
-        Get your blood tests delivered at let collect sample from the victory of
-        the managements that supplies best design system guidelines ever.
+        To survive as an entrepreneur in Nigeria, it is crucial to stay adaptable, build strong networks, continuously innovate, navigate regulatory challenges, and embrace the potential of technology to overcome infrastructure limitations and reach a wider customer base.
       </div>
     ),
   },

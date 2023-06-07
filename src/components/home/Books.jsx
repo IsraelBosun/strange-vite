@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useRef } from 'react'
 import { books } from "../container/Data"
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
@@ -68,14 +68,15 @@ const Books = () => {
             <div className='mt-12 '>
                 <Swiper
                         onSwiper={setSwiperRef}
-                        slidesPerView={1.2}
+                        slidesPerView={1.3}
                         centeredSlides={true}
                         spaceBetween={20}
                         pagination={{
                           type: "fraction",
                         }}
                         navigation={true}
-                        modules={[Pagination, Navigation]}
+                        // modules={[Pagination, Navigation]}
+                        // watchSlidesProgress={true} slidesPerView={1.7}
                 className=''>
                     {books.slice(0, 4).map(course => {
                         return ( <SwiperSlide className=''>

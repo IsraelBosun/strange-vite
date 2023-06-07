@@ -24,7 +24,6 @@
 //     fetchData();
 //   }, [url])
 //   // console.log(data)
-
 //   return { loading, error, data }
 // }
 
