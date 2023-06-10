@@ -17,14 +17,15 @@ const Blog = () => {
         <motion.article     variants={staggerContainer}
         initial = "hidden"
         whileInView= "show"
-        viewport={{once: false, amount: 0.25}} className='section'>
+        viewport={{once: false, amount: 0.25}} className='section '
+        >
             <div className='text-center'>
                 <p className='text-xl font-bold capitalize'>Or read my  <span className='text-blue-600'>blogs</span> </p>
                 {/* <p className='text-[#5F6D7E]'>Here are some </p> */}
                 <TypingText title = "Here are some" textStyles = "t font-bold mb-4"  />
             </div>
-            <div className='overflow-x-hidden'>
-            <div className="mt-[50px] flex md:flex-row flex-col min-h-[70vh] gap-5">
+            <div className='overflow-x-hidden '>
+            <div className="mt-[50px] flex md:flex-row flex-col min-h-[70vh]  gap-5">
                 {
                     exploreWorlds.map((bloggers, index) => {
                         return (

@@ -36,7 +36,7 @@ const Navbar = () => {
                 <div
                     className={`${active ? "py-2 transition-all duration-300" : "py-4"} container mx-auto flex items-center justify-between px-2`}
                 >
-                    <Link to="/" className="w-1/3 max-w-[250px]">
+                    <Link to="/" className="w-1/3 max-w-[160px]">
                         {/* <div className='text-xl text-Blue uppercase tracking-wide '>DR Marcus</div> */}
                         <img src={logo} alt="" className='' />
                     </Link>

@@ -62,7 +62,7 @@ const Specialty = () => {
     viewport={{once: false, amount: 0.25}}
     className='section flex  flex-col items-center justify-center'>
           {/* <div className = "text-xl font-bold mb-4 text-center">Top <span className='text-blue-600'>5 questions </span>  that brings people to  my website</div> */}
-          <TypingText title = "Top 5 questions that brings people to my website" textStyles = "text-center text-xl font-bold mb-4" subtitle="Hello" />
+          <TypingText title = "Top 5 questions that brings people here" textStyles = "text-center text-xl font-bold mb-4" subtitle="Hello" />
           
           <Box sx={styles.accordionGroup} >
             <Accordion items={data} />

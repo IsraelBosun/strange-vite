@@ -65,10 +65,10 @@ const Books = () => {
             <TypingText title = "Check out my books" textStyles = "font-semibold" />
             </div>
 
-            <div className='mt-12 '>
+            <div className='mt-12 max-w-[800px] mx-auto'>
                 <Swiper
                         onSwiper={setSwiperRef}
-                        slidesPerView={1.3}
+                        slidesPerView={1.5}
                         centeredSlides={true}
                         spaceBetween={20}
                         pagination={{
