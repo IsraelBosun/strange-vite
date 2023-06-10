@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const BooksContainer = ({ image, category, title, price, Link }) => {
   return (
-    <div className='rounded-xl max-w-[400px] flex flex-col p-2 bg-gradient shadow-2xl bg-white rounded-md'>
+    <div className='rounded-xl max-w-[400px]  flex flex-col p-2 bg-gradient shadow-2xl bg-white rounded-md'>
     <img src={image} className='rounded-xl w-full'  alt="courses" />
     <div className='mt-2 text-xs text-blue-600'>{category}</div>
     <div className='flex flex-col space-y-2 sm:flex-row items-center justify-between mt-3'>

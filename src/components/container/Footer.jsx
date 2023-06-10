@@ -17,7 +17,7 @@ const Footer = () => {
                 <Link to = "/" className='w-1/2 max-w-[200px]'>
                     <img src={logo} alt="Logo" />
                 </Link>
-                <p className='text-[#A5ACBA]'>Dr Oluwole: committed to improving health outcomes through compassion and innovation.</p>
+                <p className='text-white'>Your Health, My Passion. Driven by Compassion and Innovation, I deliver personalized care that embraces your unique story. Together, let's rewrite the narrative of your well-being and success.</p>
             </div>
             <div className = "grid grid-cols-2 gap-9">
             <div className='flex flex-col gap-3 text-[#A5ACBA]'>
