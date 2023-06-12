@@ -34,22 +34,22 @@ const data = [
       </div>
     ),
   },
-  {
-    title: (<div className = "font-bold text-blue-600">How can Nigerian entrepreneurs improve their chances of obtaining financing for their startup ventures?</div>),
-    contents: (
-      <div className=''>
-        Nigerian entrepreneurs can enhance their chances of securing financing by creating a compelling business plan, demonstrating a strong market opportunity, building a reputable network, and showcasing a solid track record or proof of concept to potential investors or funding institutions.
-      </div>
-    ),
-  },
-  {
-    title: (<div className='font-bold text-blue-600'>What are some key strategies for entrepreneurs to survive and thrive in the Nigerian business landscape?</div>), 
-    contents: (
-      <div>
-        To survive as an entrepreneur in Nigeria, it is crucial to stay adaptable, build strong networks, continuously innovate, navigate regulatory challenges, and embrace the potential of technology to overcome infrastructure limitations and reach a wider customer base.
-      </div>
-    ),
-  },
+  // {
+  //   title: (<div className = "font-bold text-blue-600">How can Nigerian entrepreneurs improve their chances of obtaining financing for their startup ventures?</div>),
+  //   contents: (
+  //     <div className=''>
+  //       Nigerian entrepreneurs can enhance their chances of securing financing by creating a compelling business plan, demonstrating a strong market opportunity, building a reputable network, and showcasing a solid track record or proof of concept to potential investors or funding institutions.
+  //     </div>
+  //   ),
+  // },
+  // {
+  //   title: (<div className='font-bold text-blue-600'>What are some key strategies for entrepreneurs to survive and thrive in the Nigerian business landscape?</div>), 
+  //   contents: (
+  //     <div>
+  //       To survive as an entrepreneur in Nigeria, it is crucial to stay adaptable, build strong networks, continuously innovate, navigate regulatory challenges, and embrace the potential of technology to overcome infrastructure limitations and reach a wider customer base.
+  //     </div>
+  //   ),
+  // },
 ];
 
 

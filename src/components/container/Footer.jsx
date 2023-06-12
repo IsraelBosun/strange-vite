@@ -14,7 +14,7 @@ const Footer = () => {
         <section className='bg-[#151B28]'>
         <div className=' section sm:text-md text-sm w-full p-5   grid justify-between items- grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-9 '>
             <div className='flex flex-col gap-3'>
-                <Link to = "/" className='w-1/2 max-w-[200px]'>
+                <Link to = "/" className='w-1/2 max-w-[160px]'>
                     <img src={logo} alt="Logo" />
                 </Link>
                 <p className='text-white'>Your Health, My Passion. Driven by Compassion and Innovation, I deliver personalized care that embraces your unique story. Together, let's rewrite the narrative of your well-being and success.</p>
